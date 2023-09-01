@@ -1,0 +1,11 @@
+// =======================
+        
+        // if($('#input-check-all').is(':checked')){
+        //     $('.mail-checks').prop('checked',true);
+            
+        //     $('.check-box-control').css('display','flex');
+        // }
+        // else{
+        //     $('.mail-checks').prop('checked',false);
+        //     $('.check-box-control').css('display','none');
+        // }

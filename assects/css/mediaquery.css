@@ -1,0 +1,160 @@
+@media screen and (max-width: 768px) {
+  header {
+    display: none;
+  }
+  #top-nav {
+    font-size: 12px;
+  }
+  #top-nav .logo-holder a {
+    font-size: 14px;
+  }
+  #side-nav ul li {
+    padding: 0;
+  }
+  #side-nav ul li a, #side-nav ul li span {
+    font-size: 12px;
+  }
+  .compost-mail-btn {
+    bottom: 60px;
+  }
+  #sent-mail-container .sentmail-contols {
+    display: none;
+  }
+  #sent-mail-container .mail-box .email-list span {
+    font-size: 8px;
+    margin: 2px;
+  }
+  #inbox-container .inbox-holder .inbox-message-holder .inbox .inbox-message p {
+    font-size: 10px;
+  }
+  #inbox-container .inbox-holder .inbox-message-holder .inbox .inbox-message .inbox-document-preview {
+    font-size: 8px;
+    gap: 0px 5px;
+  }
+  #inbox-container .inbox-holder .inbox-message-holder .inbox:hover .hover-controls {
+    display: none;
+  }
+  #inbox-container .inbox-buttons {
+    background-color: white;
+  }
+  #inbox-container .inbox-buttons button {
+    font-size: 14px;
+    padding: 5px 30px;
+  }
+  #inbox-container .inbox-message-holder .inbox .inbox-message .inbox-subject h6 {
+    font-size: 14px;
+  }
+  #inbox-container .inbox-message-holder .inbox .inbox-message .inbox-msg-content {
+    font-size: 10px;
+  }
+  #inbox-container .inbox-message-holder .inbox .inbox-message .inbox-document-preview .file {
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .pad-5 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  #top-nav .top-nav-left {
+    display: none;
+  }
+  #top-nav .top-nav-right {
+    width: 100%;
+    justify-content: flex-start;
+  }
+  #top-nav .top-nav-right .small-scren-titles {
+    width: 80%;
+    display: block;
+  }
+  #top-nav .top-nav-right .small-scren-titles input.small-search {
+    width: 100%;
+    padding: 3px 10px;
+    border: 1px solid rgb(192, 190, 190);
+  }
+  #top-nav .top-nav-right .right-float {
+    display: none;
+  }
+  #top-nav .top-nav-right .menu-button {
+    display: none;
+  }
+  #top-nav .top-nav-right .app-menu-btn {
+    display: block;
+  }
+  #footer-menus {
+    display: flex;
+  }
+  #side-nav.side-toggle-full {
+    width: auto;
+  }
+  #side-nav {
+    overflow-x: scroll;
+    box-shadow: 0px 3px 5px rgb(117, 117, 117);
+    position: fixed;
+    top: 0;
+    left: -190px;
+    bottom: 0;
+    z-index: 150;
+    transition-duration: 0.5s;
+  }
+  #side-nav ul li a, #side-nav ul li span {
+    display: block;
+  }
+  .side-nav-pusher {
+    left: 0;
+  }
+  #content-body {
+    width: 100%;
+    padding-bottom: 5px;
+  }
+  #content-body #page-information {
+    display: none;
+  }
+  #inbox-container .inbox-controls {
+    display: none;
+  }
+  #inbox-container .inbox-message-holder .inbox input {
+    display: none;
+  }
+  .hi-card .wether .wether-degrees .comming-days p {
+    line-height: 10px;
+  }
+  .table-holder {
+    background-color: white;
+  }
+  .table-holder .table-heading {
+    padding: 2%;
+    border-bottom: 1px solid rgb(216, 216, 216);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .table-holder .table-heading span {
+    font-weight: 500;
+  }
+  .table-holder .table-heading .table-left-content {
+    width: 80%;
+  }
+  .table-holder .table-heading .table-left-content p {
+    font-size: 10px;
+  }
+  .table-holder .table-container .table_1 thead tr th, .table-holder .table-container .table_1 tbody tr td {
+    padding: 1%;
+    font-size: 10px;
+  }
+  .table-holder .table-container .table_1 thead tr th {
+    width: 5%;
+    font-weight: 500;
+  }
+  .table-holder .table-container .table_common tbody tr td {
+    text-align: left;
+    padding: 3% 2%;
+    text-align: center;
+  }
+  .table-holder .table-container .table_common tbody tr td span {
+    font-size: 10px;
+  }
+  .table-holder .table-container .table_common tbody tr td:not(:nth-child(1)) {
+    text-align: left;
+  }
+}/*# sourceMappingURL=mediaquery.css.map */

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            display: flex;
+            gap: 30px;
+        }
+        .container .progress{
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            background:black  linear-gradient(to right, transparent,50%,var(--color)0);
+            color: green;
+            position: relative;
+        }
+        .container .progress h3,
+        .container .progress h4,
+        .container .progress span{
+            z-index: 20;
+        }
+        .container .progress h3{
+            font-size: 30px;
+            font-weight: 500;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+        }
+        .container .progress span{
+            font-size: 12px;
+            font-weight: 300;
+        }
+        .container .progress h4{
+            position: absolute;
+            top: 62%;
+            left: 50%;
+            transform: translateX(-50%);
+            color: orange;
+        }
+        .container .progress::before{
+            content: '';
+            display: block;
+            height: 100%;
+            margin-left: 50%;
+            transform-origin: left;
+            border-radius: 0 100% 100% 0/50%;
+        }
+        .container .progress::after{
+            content: '';
+            position: absolute;
+            inset: 10px;
+            border-radius: 50%;
+            background-color: black;
+        }
+        /* ------------------------------------- */
+        .container .progress::before{
+            background: var(--color);
+            transform: rotate(calc(((var(--i) - 50) * 0.01turn)));
+            animation: helllo 2s forwards;
+        }
+        .container .progress.less::before{
+            background: black;
+            transform: rotate(calc(((var(--i) - 0) * 0.01turn)));
+        }
+    </style>
+
+</head>
+<body>
+    <div class="container">
+        <div class="progress" style="--i:75;--color:red;">
+            <h3>75 <span>%</span></h3>
+            <h4>hELLO</h4>
+        </div>
+        <div class="progress less" style="--i:20;--color:red;">
+            <h3>20 <span>%</span></h3>
+            <h4>hELLO</h4>
+        </div>
+    </div>
+</body>
+</html>

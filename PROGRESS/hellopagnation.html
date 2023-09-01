@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .item-container{
+            border: 1px solid red;
+        }
+        .items{
+            border: 1px solid grey;
+            margin: 10px;
+            padding: 10px;
+        }
+        .pagnation-control{
+            padding: 10px;
+            width: 30%;
+            background-color: aqua;
+            display: flex;
+            justify-content: space-evenly;
+        }
+    </style>
+</head>
+<body>
+    <div class="pagnation-control">
+        <a href="#">Prev</a>
+        <div class="pagenumber">!</div>
+        <a href="#">Next</a>
+    </div>
+    <div class="item-container">
+        <div class="items">
+            <h1>Heloo</h1>
+            <p>kldhjkafjjdsfj ;las dfj</p>
+        </div>
+        <div class="items">
+            <h1>Heloo</h1>
+            <p>kldhjkafjjdsfj ;las dfj</p>
+        </div>
+        <div class="items">
+            <h1>Heloo</h1>
+            <p>kldhjkafjjdsfj ;las dfj</p>
+        </div>
+        <div class="items">
+            <h1>Heloo</h1>
+            <p>kldhjkafjjdsfj ;las dfj</p>
+        </div>
+        <div class="items">
+            <h1>Heloo</h1>
+            <p>kldhjkafjjdsfj ;las dfj</p>
+        </div>
+        <div class="items">
+            <h1>Heloo</h1>
+            <p>kldhjkafjjdsfj ;las dfj</p>
+        </div>
+        <div class="items">
+            <h1>Heloo</h1>
+            <p>kldhjkafjjdsfj ;las dfj</p>
+        </div>
+        <div class="items">
+            <h1>Heloo</h1>
+            <p>kldhjkafjjdsfj ;las dfj</p>
+        </div>
+        <div class="items">
+            <h1>Heloo</h1>
+            <p>kldhjkafjjdsfj ;las dfj</p>
+        </div>
+        <div class="items">
+            <h1>Heloo</h1>
+            <p>kldhjkafjjdsfj ;las dfj</p>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function(){
+            itmesCount = $('item-container .items');
+            console.log(itmesCount.length);
+        });
+    </script>
+</body>
+</html>

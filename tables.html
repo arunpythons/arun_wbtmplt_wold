@@ -1,0 +1,770 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+    <link rel="stylesheet" href="assects/css/style.css">
+    <link rel="stylesheet" href="assects/css/mediaquery.css">
+
+    <!-- font asesome icons -->
+    <link rel="stylesheet" href="assects/fontawesome-free-6.4.2-web/css/all.min.css">
+    <script src="assects/fontawesome-free-6.4.2-web/js/all.min.js"></script>
+
+    <!-- bootstrap 5.0 cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+        <div class="container-fluid">
+            <span>Admin panel</span>
+        </div>
+    </header>
+    <div id="top-nav">
+        <div class="container-fluid d-flex">
+            <div class="top-nav-left">
+                <img src="assects/images/admin.png" class="brand-logo" alt="" srcset="">
+                <a href="#" class="brand-txt">Hello Dashboard</a>
+            </div>
+            <div class="top-nav-right">
+                <!-- menu button -->
+                <div class="menu-button">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+                <div class="app-menu-btn">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+                <div class="small-scren-titles">
+                    <span class="h6">Hello Dashboard</span>
+                    <input type="text" name="search" id="srch" placeholder="search.." class="form-control form-control-sm small-search">
+                </div>
+                <div class="right-float">
+                    <!-- search box -->
+                    <div class="seatch-box">
+                        <input type="text" name="" id="search-input" class="form-control form-control-sm" placeholder="Search...">
+                        <div class="search-clicker">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </div>
+                    </div>
+                    <!-- notification 1 -->
+                    <div class="notification">
+                        <a href="inbox.html"><i class="fa-solid fa-envelope"></i></a>
+                        <div class="count">1</div>
+                    </div>
+                    <!-- notification 2 -->
+                    <div class="notification">
+                        <div class="notofi-handil drop-clicker">
+                            <a href="#"><i class="fa-solid fa-bell"></i></a>
+                            <div class="count">1</div>
+                        </div>
+                        <div class="drop-s user-datails-dropdown">
+                            <ul>
+                                <li>
+                                    <div class="chat-list">
+                                        <div class="chat-user-pic">
+                                            <img src="assects/images/user-1.jpg" alt="" srcset="">
+                                        </div>
+                                        <div class="chats">
+                                            <span class="user-name">User name</span>
+                                            <span class="chat-msg">Lorem ipsum dolor sit amet consecte</span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="chat-list">
+                                        <div class="chat-user-pic">
+                                            <img src="assects/images/user-1.jpg" alt="" srcset="">
+                                        </div>
+                                        <div class="chats">
+                                            <span class="user-name">User name</span>
+                                            <span class="chat-msg">Lorem ipsum dolor sit amet consecte</span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="chat-list">
+                                        <div class="chat-user-pic">
+                                            <img src="assects/images/user-1.jpg" alt="" srcset="">
+                                        </div>
+                                        <div class="chats">
+                                            <span class="user-name">User name</span>
+                                            <span class="chat-msg">Lorem ipsum dolor sit amet consecte</span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="chat-list">
+                                        <div class="chat-user-pic">
+                                            <img src="assects/images/user-1.jpg" alt="" srcset="">
+                                        </div>
+                                        <div class="chats">
+                                            <span class="user-name">User name</span>
+                                            <span class="chat-msg">Lorem ipsum dolor sit amet consecte</span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li style="border-top: 1px solid grey;">
+                                    <a href="#">View All</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- user information -->
+                    <div class="user-information">
+                        <div class="user-handil drop-clicker">
+                            <div class="user-photo">
+                                <img src="assects/images/user-1.jpg" alt="">
+                            </div>
+                            <span>User name <i class="fa-solid fa-chevron-down"></i></span>
+                        </div>
+                        <div class="user-datails-dropdown">
+                            <ul>
+                                <li><a href="charts.html"><i class="fa-solid fa-user"></i> Profile</a></li>
+                                <li><a href="#"><i class="fa-solid fa-palette"></i> Themes</a></li>
+                                <li><a href="#"><i class="fa-solid fa-gear"></i> Settings</a></li>
+                                <li><a href="#"><i class="fa-solid fa-right-from-bracket"></i> Log out</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="footer-menus">
+        <div class="notification">
+            <div class="notofi-handil">
+                <a href="index.html"><i class="fa-solid fa-house"></i></a>
+            </div>
+        </div>
+        <div class="notification">
+            <div class="notofi-handil">
+                <a href="#" id="search-small-btn"><i class="fa-solid fa-magnifying-glass"></i></a>
+            </div>
+        </div>
+        <div class="notification">
+            <div class="notofi-handil">
+                <a href="inbox.html"><i class="fa-solid fa-envelope"></i></a>
+                <div class="count">1</div>
+            </div>
+        </div>
+        <div class="notification">
+            <div class="notofi-handil drop-clicker">
+                <a href="#"><i class="fa-solid fa-bell"></i></a>
+                <div class="count">1</div>
+            </div>
+        </div>
+        <div class="user-information">
+            <div class="user-handil drop-clicker">
+                <a href="#">
+                    <div class="user-photo">
+                        <img src="assects/images/user-1.jpg" alt="">
+                    </div>
+                </a>
+                <!-- <a href="#">User name <i class="fa-solid fa-chevron-down"></i></a> -->
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid p-0 d-flex">
+        <nav id="side-nav" class="side-toggle-full">
+            <ul>
+                <li>
+                    <div class="nav-incons" title="Dashboard">
+                        <i class="fa-solid fa-gauge"></i>
+                    </div>
+                    <a class="nav-hider" href="index.html">Dashboard</a>
+                </li>
+                <li>
+                    <div class="nav-incons" title="Home">
+                        <i class="fa-solid fa-house"></i>
+                    </div>
+                    <a class="nav-hider" href="index.html">Home</a>
+                </li>
+                <li>
+                    <div class="nav-incons" title="Inbox">
+                        <i class="fa-solid fa-inbox"></i>
+                    </div>
+                    <a class="nav-hider" href="inbox.html">Inbox</a>
+                </li>
+                <li>
+                    <div class="nav-incons" title="Inbox">
+                        <i class="fa-solid fa-message"></i>
+                    </div>
+                    <a class="nav-hider" href="#">Chat</a>
+                </li>
+                <li class="drop-clicker" title="Chart">
+                    <div class="nav-incons">
+                        <i class="fa-solid fa-chart-simple"></i>
+                    </div>
+                    <span class="nav-hider" href="#">Charts <i class="fa-solid fa-chevron-down"></i></span>
+                </li>
+                <ul  class="droop-downs">
+                    <li><a href="charts.html">Pi chart</a></li>
+                    <li><a href="charts.html">Bar chart</a></li>
+                    <li><a href="charts.html">chart</a></li>
+                </ul>
+                <li>
+                    <div class="nav-incons" title="Table">
+                        <i class="fa-solid fa-table-list"></i>
+                    </div>
+                    <a class="nav-hider" href="tables.html">Tables</a>
+                </li>
+                <li class="drop-clicker">
+                    <div class="nav-incons" title="Cards">
+                        <i class="fa-solid fa-square"></i>
+                    </div>
+                    <span class="nav-hider" href="#">Cards <i class="fa-solid fa-chevron-down"></i></span>
+                </li>
+                <ul class="droop-downs">
+                    <li><a href="#">Card 1</a></li>
+                    <li><a href="#">Card 2</a></li>
+                    <li><a href="#">Card 3</a></li>
+                </ul>
+                <li>
+                    <div class="nav-incons" title="Forms">
+                        <i class="fa-regular fa-rectangle-list"></i>
+                    </div>
+                    <a class="nav-hider" href="#">Forms</a>
+                </li>
+                <li>
+                    <div class="nav-incons" title="Buttons">
+                        <i class="fa-solid fa-toggle-on"></i>
+                    </div>
+                    <a class="nav-hider" href="#">Buttons</a>
+                </li>
+                <li>
+                    <div class="nav-incons" title="Dark mode">
+                        <i class="fa-solid fa-circle-half-stroke"></i>
+                    </div>
+                    <a class="nav-hider" href="#">Dark Mode</a>
+                </li>
+            </ul>
+        </nav>
+        <div id="content-body" class="pad-5">
+            <div class="container-fluid"><!--px-5-->
+                <div class="row" id="page-information">
+                    <div class="col-lg-12 py-4">
+                        <!-- <a href="#">Dashboard</a> -->
+                        <p class="h5">Tables</p>
+                        <!-- <span style="font-size: 12px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae harum quod adipisci amet quas aut explicabo culpa cum facere debitis! Architecto quod illum voluptas animi aliquid quaerat explicabo, sapiente est?</span> -->
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12 pt-2 pb-5">
+                        <div class="row">
+                            <div class="col-md-12 pb-5">
+                                <div class="table-holder table-responsive border">
+                                    <div class="table-heading">
+                                        <span>Employ Details</span>
+                                        <a href="#" title="Download" class="btn btn-sm btn-primary" id="tbl1-btn-download"><i class="fa-solid fa-download"></i> Download</a>
+                                    </div>
+                                    <div class="table-container">
+                                        <table class="table_1 table_common">
+                                            <thead>
+                                                <tr>
+                                                    <th>Emplay Name</th>
+                                                    <th>Job Title</th>
+                                                    <th>Manager</th>
+                                                    <th>Department</th>
+                                                    <th>Monthely Salary</th>
+                                                    <th>Number of years served</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>Arun prakash</td>
+                                                    <td>Web designer</td>
+                                                    <td>Sanjay</td>
+                                                    <td>web</td>
+                                                    <td>24,000</td>
+                                                    <td>5</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Arun prakash</td>
+                                                    <td>Web designer</td>
+                                                    <td>Sanjay</td>
+                                                    <td>web</td>
+                                                    <td>24,000</td>
+                                                    <td>5</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Arun prakash</td>
+                                                    <td>Web designer</td>
+                                                    <td>Sanjay</td>
+                                                    <td>web</td>
+                                                    <td>24,000</td>
+                                                    <td>5</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Arun prakash</td>
+                                                    <td>Web designer</td>
+                                                    <td>Sanjay</td>
+                                                    <td>web</td>
+                                                    <td>24,000</td>
+                                                    <td>5</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Arun prakash</td>
+                                                    <td>Web designer</td>
+                                                    <td>Sanjay</td>
+                                                    <td>web</td>
+                                                    <td>24,000</td>
+                                                    <td>5</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Arun prakash</td>
+                                                    <td>Web designer</td>
+                                                    <td>Sanjay</td>
+                                                    <td>web</td>
+                                                    <td>24,000</td>
+                                                    <td>5</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Arun prakash</td>
+                                                    <td>Web designer</td>
+                                                    <td>Sanjay</td>
+                                                    <td>web</td>
+                                                    <td>24,000</td>
+                                                    <td>5</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Arun prakash</td>
+                                                    <td>Web designer</td>
+                                                    <td>Sanjay</td>
+                                                    <td>web</td>
+                                                    <td>24,000</td>
+                                                    <td>5</td>
+                                                </tr>
+    
+                                                <tr>
+                                                    <td>Arun prakash</td>
+                                                    <td>Web designer</td>
+                                                    <td>Sanjay</td>
+                                                    <td>web</td>
+                                                    <td>24,000</td>
+                                                    <td>5</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12 pb-5">
+                                <div class="table-holder table-responsive border">
+                                    <div class="table-heading">
+                                        <div class="table-left-content">
+                                            <span>Employ Details</span>
+                                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt quae minus,</p>
+                                        </div>
+                                        <!-- <a href="#" title="Download" class="btn btn-sm btn-primary" id="tbl1-btn-download"><i class="fa-solid fa-download"></i> Download</a> -->
+                                    </div>
+                                    <div class="table-container">
+                                        <table class="table_1 table_common">
+                                            <thead>
+                                                <tr>
+                                                    <th>Emplay</th>
+                                                    <th>Job Title</th>
+                                                    <th>Manager</th>
+                                                    <th>Department</th>
+                                                    <th>Monthely Salary</th>
+                                                    <th>Number of years served</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>
+                                                        <img src="assects/images/user-1.jpg" alt="" title="arun prakash">
+                                                        <span>Arun prakash</span>
+                                                        <!-- <img src="assects/images/user-1.jpg" alt="" title="arun prakash"></td> -->
+                                                    <td>Web designer</td>
+                                                    <td>Sanjay</td>
+                                                    <td>web</td>
+                                                    <td>24,000</td>
+                                                    <td>5</td>
+                                                </tr>
+                                                <tr>
+                                                    <td><img src="assects/images/user-1.jpg" alt=""><span>Arun prakash</span> </td>
+                                                    <td>Web designer</td>
+                                                    <td>Sanjay</td>
+                                                    <td>web</td>
+                                                    <td>24,000</td>
+                                                    <td>5</td>
+                                                </tr>
+                                                <tr>
+                                                    <td><img src="assects/images/user-1.jpg" alt=""> <span>Arun prakash</span> </td>
+                                                    <td>Web designer</td>
+                                                    <td>Sanjay</td>
+                                                    <td>web</td>
+                                                    <td>24,000</td>
+                                                    <td>5</td>
+                                                </tr>
+                                                <tr>
+                                                    <td><img src="assects/images/user-1.jpg" alt=""> <span>Arun prakash</span> </td>
+                                                    <td>Web designer</td>
+                                                    <td>Sanjay</td>
+                                                    <td>web</td>
+                                                    <td>24,000</td>
+                                                    <td>5</td>
+                                                </tr>
+                                                <tr>
+                                                    <td><img src="assects/images/user-1.jpg" alt=""> <span>Arun prakash</span> </td>
+                                                    <td>Web designer</td>
+                                                    <td>Sanjay</td>
+                                                    <td>web</td>
+                                                    <td>24,000</td>
+                                                    <td>5</td>
+                                                </tr>
+                                                <tr>
+                                                    <td><img src="assects/images/user-1.jpg" alt=""> <span>Arun prakash</span> </td>
+                                                    <td>Web designer</td>
+                                                    <td>Sanjay</td>
+                                                    <td>web</td>
+                                                    <td>24,000</td>
+                                                    <td>5</td>
+                                                </tr>
+                                                <tr>
+                                                    <td><img src="assects/images/user-1.jpg" alt=""> <span>Arun prakash</span> </td>
+                                                    <td>Web designer</td>
+                                                    <td>Sanjay</td>
+                                                    <td>web</td>
+                                                    <td>24,000</td>
+                                                    <td>5</td>
+                                                </tr>
+                                                <tr>
+                                                    <td><img src="assects/images/user-1.jpg" alt=""> <span>Arun prakash</span> </td>
+                                                    <td>Web designer</td>
+                                                    <td>Sanjay</td>
+                                                    <td>web</td>
+                                                    <td>24,000</td>
+                                                    <td>5</td>
+                                                </tr>
+    
+                                                <tr>
+                                                    <td><img src="assects/images/user-1.jpg" alt=""> <span>Arun prakash</span> </td>
+                                                    <td>Web designer</td>
+                                                    <td>Sanjay</td>
+                                                    <td>web</td>
+                                                    <td>24,000</td>
+                                                    <td>5</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 my-3">
+                                <div class="table-holder table-responsive border">
+                                    <div class="table-heading">
+                                        <span>Employ Details</span>
+                                    </div>
+                                    <div class="table-container table-height">
+                                        <table class="table_2 table_common">
+                                            <thead>
+                                                <tr>
+                                                    <th>Emp Id</th>
+                                                    <th>Emplay Name</th>
+                                                    <th>Job Title</th>
+                                                    <th>Manager</th>
+                                                    <th>Department</th>
+                                                    <th>Monthely Salary</th>
+                                                    <th>Number of years served</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>1</td>
+                                                    <td>Arun prakash</td>
+                                                    <td>Web designer</td>
+                                                    <td>Sanjay</td>
+                                                    <td>web</td>
+                                                    <td>24,000</td>
+                                                    <td>5</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>2</td>
+                                                    <td>Arun prakash</td>
+                                                    <td>Web designer</td>
+                                                    <td>Sanjay</td>
+                                                    <td>web</td>
+                                                    <td>24,000</td>
+                                                    <td>5</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>3</td>
+                                                    <td>Arun prakash</td>
+                                                    <td>Web designer</td>
+                                                    <td>Sanjay</td>
+                                                    <td>web</td>
+                                                    <td>24,000</td>
+                                                    <td>5</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>4</td>
+                                                    <td>Arun prakash</td>
+                                                    <td>Web designer</td>
+                                                    <td>Sanjay</td>
+                                                    <td>web</td>
+                                                    <td>24,000</td>
+                                                    <td>5</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>5</td>
+                                                    <td>Arun prakash</td>
+                                                    <td>Web designer</td>
+                                                    <td>Sanjay</td>
+                                                    <td>web</td>
+                                                    <td>24,000</td>
+                                                    <td>5</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>6</td>
+                                                    <td>Arun prakash</td>
+                                                    <td>Web designer</td>
+                                                    <td>Sanjay</td>
+                                                    <td>web</td>
+                                                    <td>24,000</td>
+                                                    <td>5</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>7</td>
+                                                    <td>Arun prakash</td>
+                                                    <td>Web designer</td>
+                                                    <td>Sanjay</td>
+                                                    <td>web</td>
+                                                    <td>24,000</td>
+                                                    <td>5</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>8</td>
+                                                    <td>Arun prakash</td>
+                                                    <td>Web designer</td>
+                                                    <td>Sanjay</td>
+                                                    <td>web</td>
+                                                    <td>24,000</td>
+                                                    <td>5</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>9</td>
+                                                    <td>Arun prakash</td>
+                                                    <td>Web designer</td>
+                                                    <td>Sanjay</td>
+                                                    <td>web</td>
+                                                    <td>24,000</td>
+                                                    <td>5</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6  my-3">
+                                <div class="table-holder table-responsive border">
+                                    <div class="table-heading">
+                                        <span>Employ Details</span>
+                                    </div>
+                                    <div class="table-container table-height">
+                                        <table class="table_3 table_common">
+                                            <thead>
+                                                <tr>
+                                                    <th>Emp Id</th>
+                                                    <th>Emplay Name</th>
+                                                    <th>Job Title</th>
+                                                    <th>Manager</th>
+                                                    <th>Department</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>#12401</td>
+                                                    <td>Arun prakash</td>
+                                                    <td>Web designer</td>
+                                                    <td>Sanjay</td>
+                                                    <td>web</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>#12402</td>
+                                                    <td>Arun prakash</td>
+                                                    <td>Web designer</td>
+                                                    <td>Sanjay</td>
+                                                    <td>web</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>#12403</td>
+                                                    <td>Arun prakash</td>
+                                                    <td>Web designer</td>
+                                                    <td>Sanjay</td>
+                                                    <td>web</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>#12404</td>
+                                                    <td>Arun prakash</td>
+                                                    <td>Web designer</td>
+                                                    <td>Sanjay</td>
+                                                    <td>web</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>#12405</td>
+                                                    <td>Arun prakash</td>
+                                                    <td>Web designer</td>
+                                                    <td>Sanjay</td>
+                                                    <td>web</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>#12406</td>
+                                                    <td>Arun prakash</td>
+                                                    <td>Web designer</td>
+                                                    <td>Sanjay</td>
+                                                    <td>web</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>#12407</td>
+                                                    <td>Arun prakash</td>
+                                                    <td>Web designer</td>
+                                                    <td>Sanjay</td>
+                                                    <td>web</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>#12408</td>
+                                                    <td>Arun prakash</td>
+                                                    <td>Web designer</td>
+                                                    <td>Sanjay</td>
+                                                    <td>web</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>#12409</td>
+                                                    <td>Arun prakash</td>
+                                                    <td>Web designer</td>
+                                                    <td>Sanjay</td>
+                                                    <td>web</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- pagnation table -->
+                        <div class="row">
+                            <div class="col-md-12 pb-5">
+                                <div class="table-holder table-responsive border">
+                                    <div class="table-heading">
+                                        <span>Employ Details</span>
+                                    </div>
+                                    <div class="table-container">
+                                        <table class="table_1 table_common">
+                                            <thead>
+                                                <tr>
+                                                    <th>Emplay Name</th>
+                                                    <th>Job Title</th>
+                                                    <th>Manager</th>
+                                                    <th>Department</th>
+                                                    <th>Monthely Salary</th>
+                                                    <th>Number of years served</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody class="pagnation-table">
+                                                <tr>
+                                                    <td>Arun prakash</td>
+                                                    <td>Web designer</td>
+                                                    <td>Sanjay</td>
+                                                    <td>web</td>
+                                                    <td>24,000</td>
+                                                    <td>5</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Arun prakash</td>
+                                                    <td>Web designer</td>
+                                                    <td>Sanjay</td>
+                                                    <td>web</td>
+                                                    <td>24,000</td>
+                                                    <td>5</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Arun prakash</td>
+                                                    <td>Web designer</td>
+                                                    <td>Sanjay</td>
+                                                    <td>web</td>
+                                                    <td>24,000</td>
+                                                    <td>5</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Arun prakash</td>
+                                                    <td>Web designer</td>
+                                                    <td>Sanjay</td>
+                                                    <td>web</td>
+                                                    <td>24,000</td>
+                                                    <td>5</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Arun prakash</td>
+                                                    <td>Web designer</td>
+                                                    <td>Sanjay</td>
+                                                    <td>web</td>
+                                                    <td>24,000</td>
+                                                    <td>5</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Arun prakash</td>
+                                                    <td>Web designer</td>
+                                                    <td>Sanjay</td>
+                                                    <td>web</td>
+                                                    <td>24,000</td>
+                                                    <td>5</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Arun prakash</td>
+                                                    <td>Web designer</td>
+                                                    <td>Sanjay</td>
+                                                    <td>web</td>
+                                                    <td>24,000</td>
+                                                    <td>5</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Arun prakash</td>
+                                                    <td>Web designer</td>
+                                                    <td>Sanjay</td>
+                                                    <td>web</td>
+                                                    <td>24,000</td>
+                                                    <td>5</td>
+                                                </tr>
+    
+                                                <tr>
+                                                    <td>Arun prakash</td>
+                                                    <td>Web designer</td>
+                                                    <td>Sanjay</td>
+                                                    <td>web</td>
+                                                    <td>24,000</td>
+                                                    <td>5</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <div class="table-heading">
+                                        <span>Pages</span>
+                                        <div id="pagination-container"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- pagnation table -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- bootstrap 5.0 cdn -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!-- jquery cdn -->
+    <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+    <!-- <script src="assects/js/index.js"></script> -->
+    <!-- <script src="assects/js/jswritings.js"></script> -->
+    <script src="assects/js/clickscripts.js"></script>
+    <script src="assects/js/pageresize.js"></script>
+    <!-- pagnation script -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/simplePagination.js/1.6/jquery.simplePagination.js"></script>
+<script src="assects/js/pagnationscript.js"></script>
+</body>
+</html>

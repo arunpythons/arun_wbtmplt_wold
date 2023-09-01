@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .progress{
+            position: relative;
+            /* margin: 4px; */
+            /* float: left; */
+            text-align: center;
+            background-color: orange;
+        }
+        .bar-overflow{
+            position: relative;
+            overflow: hidden;
+            width: 90px;
+            height: 45px;
+            background-color: red;
+            /* margin-bottom: -14px; */
+
+        }
+        .bar{
+            /* background-color: green; */
+            
+            width: 90px;
+            height: 90px;
+            border-radius: 50%;
+            border: 5px solid rosybrown;
+            border-bottom-color: #0bf;  /* half azure */
+            border-left-color: #0bf;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="progress">
+        <div class="bar-overflow">
+            <div class="bar"></div>
+        </div>
+    </div>
+</body>
+</html>

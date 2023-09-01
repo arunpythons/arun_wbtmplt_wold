@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            width: 200px;
+            height: 200px;
+            background-color: aqua;
+            position: relative;
+        }
+        .half-circle1{
+            background-color: red;
+            width: 100%;
+            height: 50%;
+            border-radius: 150px 150px 0 0;
+        }
+        .half-circle2{
+            background-color: green;
+            /* background-color: red; */
+            width: 100%;
+            height: 50%;
+            border-radius: 0 0 150px 150px;
+        }
+        .cover-circle{
+            width: 150px;
+            height: 150px;
+            background-color: white;
+            border-radius: 50%;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            z-index: 5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="half-circle1"></div>
+        <div class="half-circle2"></div>
+        <div class="cover-circle">
+            75%
+        </div>
+    </div>
+</body>
+</html>

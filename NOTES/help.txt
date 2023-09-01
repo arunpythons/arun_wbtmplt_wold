@@ -1,0 +1,27 @@
+bug in inbox 
+while compresing and the minimizing may be because of using position fixed
+
+bug while clicking compost mail after minimizing the window
+
+bug while using checkbox selecting all make the celection of entire elementd in the inbox including all tabs
+
+bug at side nave while clicking drop downs have to click twice to open or closs the dropdowns
+
+
+
+https://www.tutorialrepublic.com/faq/hide-dropdown-menu-on-click-outside-of-the-element-in-jquery.php#:~:text=Answer%3A%20Use%20the%20jQuery%20on,outside%20of%20the%20trigger%20element.
+
+
+
+    <!-- https://linuxhint.com/simple-pagination-in-javascript/ -->
+    <!-- https://codepen.io/timkohai/pen/MBmxwY -->
+    <!-- https://flaviusmatis.github.io/simplePagination.js/ -->
+    <!-- https://codepen.io/monkeytempal/pen/pVrwLN -->
+    <!-- https://www.geeksforgeeks.org/how-to-integrate-jquery-pagination-plugin/ -->
+
+
+    <!-- https://codepen.io/rahulbissa17/pen/EJLPMR -->
+
+
+screen sizes
+    https://yesviz.com/mobiles.php

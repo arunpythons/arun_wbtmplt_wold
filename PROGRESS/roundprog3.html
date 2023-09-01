@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+  font-size: 0;
+  text-align: center;
+}
+
+.circle {
+  width: 200px;
+  margin: 6px 20px 20px;
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  vertical-align: top;
+}
+.circle strong {
+  position: absolute;
+  top: 70px;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  line-height: 45px;
+  font-size: 43px;
+}
+    </style>
+</head>
+<body>
+    <div class="circle" id="circle-a">
+        <strong></strong>
+    </div>
+    <div class="circle" id="circle-b">
+        <strong></strong>
+    </div>
+    <div class="circle" id="circle-c">
+        <strong></strong>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+    <script>
+        /**
+*Exampe from https://kottenator.github.io/jquery-circle-progress/
+*/
+var progressBarOptions = {
+	startAngle: -1.55,
+	size: 200,
+    value: 0.75,
+    fill: {
+		color: '#ffa500'
+	}
+}
+
+$('.circle').circleProgress(progressBarOptions).on('circle-animation-progress', function(event, progress, stepValue) {
+	$(this).find('strong').text(String(stepValue.toFixed(2)).substr(1));
+});
+
+$('#circle-b').circleProgress({
+	value : 0.25,
+	fill: {
+		color: '#FF0000'
+	}
+});
+
+$('#circle-c').circleProgress({
+	value : 0.92,
+	fill: {
+		color: '#008000'
+	}
+});
+    </script>
+</body>
+</html>

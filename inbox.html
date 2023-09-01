@@ -1,0 +1,1498 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inbox</title>
+    <link rel="stylesheet" href="assects/css/style.css">
+    <link rel="stylesheet" href="assects/css/mediaquery.css">
+
+    <!-- font asesome icons -->
+    <link rel="stylesheet" href="assects/fontawesome-free-6.4.2-web/css/all.min.css">
+    <script src="assects/fontawesome-free-6.4.2-web/js/all.min.js"></script>
+
+    <!-- bootstrap 5.0 cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+        <div class="container-fluid">
+            <span>Admin panel</span>
+        </div>
+    </header>
+    <div id="top-nav">
+        <div class="container-fluid d-flex">
+            <div class="top-nav-left">
+                <img src="assects/images/admin.png" class="brand-logo" alt="" srcset="">
+                <a href="#" class="brand-txt">Hello Dashboard</a>
+            </div>
+            <div class="top-nav-right">
+                <!-- menu button -->
+                <div class="menu-button">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+                <div class="app-menu-btn">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+                <div class="small-scren-titles">
+                    <span class="h6">Hello Dashboard</span>
+                    <input type="text" name="search" id="srch" placeholder="search.." class="form-control form-control-sm small-search">
+                </div>
+                <div class="right-float">
+                    <!-- search box -->
+                    <div class="seatch-box">
+                        <input type="text" name="" id="search-input" class="form-control form-control-sm" placeholder="Search...">
+                        <div class="search-clicker">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </div>
+                    </div>
+                    <!-- notification 1 -->
+                    <div class="notification">
+                        <a href="inbox.html"><i class="fa-solid fa-envelope"></i></a>
+                        <div class="count">1</div>
+                    </div>
+                    <!-- notification 2 -->
+                    <div class="notification">
+                        <div class="notofi-handil drop-clicker">
+                            <a href="#"><i class="fa-solid fa-bell"></i></a>
+                            <div class="count">1</div>
+                        </div>
+                        <div class="drop-s user-datails-dropdown">
+                            <ul>
+                                <li>
+                                    <div class="chat-list">
+                                        <div class="chat-user-pic">
+                                            <img src="assects/images/user-1.jpg" alt="" srcset="">
+                                        </div>
+                                        <div class="chats">
+                                            <span class="user-name">User name</span>
+                                            <span class="chat-msg">Lorem ipsum dolor sit amet consecte</span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="chat-list">
+                                        <div class="chat-user-pic">
+                                            <img src="assects/images/user-1.jpg" alt="" srcset="">
+                                        </div>
+                                        <div class="chats">
+                                            <span class="user-name">User name</span>
+                                            <span class="chat-msg">Lorem ipsum dolor sit amet consecte</span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="chat-list">
+                                        <div class="chat-user-pic">
+                                            <img src="assects/images/user-1.jpg" alt="" srcset="">
+                                        </div>
+                                        <div class="chats">
+                                            <span class="user-name">User name</span>
+                                            <span class="chat-msg">Lorem ipsum dolor sit amet consecte</span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="chat-list">
+                                        <div class="chat-user-pic">
+                                            <img src="assects/images/user-1.jpg" alt="" srcset="">
+                                        </div>
+                                        <div class="chats">
+                                            <span class="user-name">User name</span>
+                                            <span class="chat-msg">Lorem ipsum dolor sit amet consecte</span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li style="border-top: 1px solid grey;">
+                                    <a href="#">View All</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- user information -->
+                    <div class="user-information">
+                        <div class="user-handil drop-clicker">
+                            <div class="user-photo">
+                                <img src="assects/images/user-1.jpg" alt="">
+                            </div>
+                            <span>User name <i class="fa-solid fa-chevron-down"></i></span>
+                        </div>
+                        <div class="user-datails-dropdown">
+                            <ul>
+                                <li><a href="charts.html"><i class="fa-solid fa-user"></i> Profile</a></li>
+                                <li><a href="#"><i class="fa-solid fa-palette"></i> Themes</a></li>
+                                <li><a href="#"><i class="fa-solid fa-gear"></i> Settings</a></li>
+                                <li><a href="#"><i class="fa-solid fa-right-from-bracket"></i> Log out</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="footer-menus">
+        <div class="notification">
+            <div class="notofi-handil">
+                <a href="index.html"><i class="fa-solid fa-house"></i></a>
+            </div>
+        </div>
+        <div class="notification">
+            <div class="notofi-handil">
+                <a href="#" id="search-small-btn"><i class="fa-solid fa-magnifying-glass"></i></a>
+            </div>
+        </div>
+        <div class="notification">
+            <div class="notofi-handil">
+                <a href="inbox.html"><i class="fa-solid fa-envelope"></i></a>
+                <div class="count">1</div>
+            </div>
+        </div>
+        <div class="notification">
+            <div class="notofi-handil drop-clicker">
+                <a href="#"><i class="fa-solid fa-bell"></i></a>
+                <div class="count">1</div>
+            </div>
+        </div>
+        <div class="user-information">
+            <div class="user-handil drop-clicker">
+                <a href="#">
+                    <div class="user-photo">
+                        <img src="assects/images/user-1.jpg" alt="">
+                    </div>
+                </a>
+                <!-- <a href="#">User name <i class="fa-solid fa-chevron-down"></i></a> -->
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid p-0 d-flex">
+        <nav id="side-nav" class="side-toggle-full">
+            <ul>
+                <li>
+                    <div class="nav-incons" title="Dashboard">
+                        <i class="fa-solid fa-gauge"></i>
+                    </div>
+                    <a class="nav-hider" href="index.html">Dashboard</a>
+                </li>
+                <li>
+                    <div class="nav-incons" title="Home">
+                        <i class="fa-solid fa-house"></i>
+                    </div>
+                    <a class="nav-hider" href="index.html">Home</a>
+                </li>
+                <li>
+                    <div class="nav-incons" title="Inbox">
+                        <i class="fa-solid fa-inbox"></i>
+                    </div>
+                    <a class="nav-hider" href="inbox.html">Inbox</a>
+                </li>
+                <li>
+                    <div class="nav-incons" title="Inbox">
+                        <i class="fa-solid fa-message"></i>
+                    </div>
+                    <a class="nav-hider" href="#">Chat</a>
+                </li>
+                <li class="drop-clicker" title="Chart">
+                    <div class="nav-incons">
+                        <i class="fa-solid fa-chart-simple"></i>
+                    </div>
+                    <span class="nav-hider" href="#">Charts <i class="fa-solid fa-chevron-down"></i></span>
+                </li>
+                <ul  class="droop-downs">
+                    <li><a href="charts.html">Pi chart</a></li>
+                    <li><a href="charts.html">Bar chart</a></li>
+                    <li><a href="charts.html">chart</a></li>
+                </ul>
+                <li>
+                    <div class="nav-incons" title="Table">
+                        <i class="fa-solid fa-table-list"></i>
+                    </div>
+                    <a class="nav-hider" href="tables.html">Tables</a>
+                </li>
+                <li class="drop-clicker">
+                    <div class="nav-incons" title="Cards">
+                        <i class="fa-solid fa-square"></i>
+                    </div>
+                    <span class="nav-hider" href="#">Cards <i class="fa-solid fa-chevron-down"></i></span>
+                </li>
+                <ul class="droop-downs">
+                    <li><a href="#">Card 1</a></li>
+                    <li><a href="#">Card 2</a></li>
+                    <li><a href="#">Card 3</a></li>
+                </ul>
+                <li>
+                    <div class="nav-incons" title="Forms">
+                        <i class="fa-regular fa-rectangle-list"></i>
+                    </div>
+                    <a class="nav-hider" href="#">Forms</a>
+                </li>
+                <li>
+                    <div class="nav-incons" title="Buttons">
+                        <i class="fa-solid fa-toggle-on"></i>
+                    </div>
+                    <a class="nav-hider" href="#">Buttons</a>
+                </li>
+                <li>
+                    <div class="nav-incons" title="Dark mode">
+                        <i class="fa-solid fa-circle-half-stroke"></i>
+                    </div>
+                    <a class="nav-hider" href="#">Dark Mode</a>
+                </li>
+            </ul>
+        </nav>
+        <div id="content-body" class="pad-5">
+            <div class="container-fluid"><!--px-5-->
+                <div class="row" id="page-information">
+                    <div class="col-lg-12 py-4">
+                        <!-- <a href="#">Dashboard</a> -->
+                        <p class="h5">Inbox</p>
+                        <!-- <span style="font-size: 12px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae harum quod adipisci amet quas aut explicabo culpa cum facere debitis! Architecto quod illum voluptas animi aliquid quaerat explicabo, sapiente est?</span> -->
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12 py-2">
+                        <div class="row">
+                            <div class="col-md-12 pb-5">
+                                <div class="compost-mail-btn" title="Compist Mail"> 
+                                    <i class="fa-solid fa-plus"></i>
+                                </div>
+                                <div id="inbox-container">
+                                    <div class="inbox-controls">
+                                        <div class="control-left">
+                                            <div class="controls">
+                                                <input type="checkbox" name="" id="input-check-all" title="Select All" onchange="check_all_mails()">
+                                            </div>
+                                            <div class="controls">
+                                                <i class="fa-solid fa-ellipsis-vertical"></i>
+                                            </div>
+                                            <div class="controls">
+                                                <i class="fa-solid fa-rotate-right"></i>
+                                            </div>
+                                            <div class="controls-group">
+                                                <div class="controls">
+                                                    <i class="fa-regular fa-square-minus"></i>
+                                                </div>
+                                                <div class="controls">
+                                                    <i class="fa-solid fa-trash"></i>
+                                                </div>
+                                                <div class="controls">
+                                                    <i class="fa-solid fa-box-archive"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="control-right">
+                                            <div class="news-sorter-btn">
+                                                <i class="fa-solid fa-ellipsis"></i>
+                                                <div class="news-sorte-list">
+                                                    <div class="btn-pointer"></div>
+                                                    <ul>
+                                                        <li>All Mails</li>
+                                                        <li>Importent Mails</li>
+                                                        <li>Unread Mails</li>
+                                                        <li>Read Mails</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="inbox-buttons">
+                                        <button id="defaultOpen" onclick="openMails(event, 'inbox-tab')" class="tb-btn">Inbox</button>
+                                        <button onclick="openMails(event, 'send-mail-tab')" class="tb-btn">Send Mails</button>
+                                        <button onclick="openMails(event, 'draft-tab')" class="tb-btn">Drafts</button>
+                                    </div>
+                                    <div class="inbox-holder">
+                                        <div id="inbox-tab" class="inbox-message-holder">
+                                            <div class="inbox read">
+                                                <input type="checkbox" name="" id="inboc_check_1" class="mail-checks">
+                                                <div class="inbox-message">
+                                                    <div class="inbox-subject">
+                                                        <h6>The Message says about the topic</h6>
+                                                    </div>
+                                                    <div class="inbox-document-preview">
+                                                        <div class="file">
+                                                            <i class="fa-regular fa-image"></i>
+                                                            <span>image-file.jpeg</span>
+                                                        </div>
+                                                        <div class="file">
+                                                            <i class="fa-solid fa-file"></i>
+                                                            <span>The Document.docs</span>
+                                                        </div>
+                                                        <div class="file">
+                                                            <i class="fa-solid fa-file-zipper"></i>
+                                                            zips files.rar
+                                                        </div>
+                                                        <div class="file">
+                                                            <i class="fa-solid fa-folder"></i>    
+                                                            The Movie collections
+                                                        </div> 
+                                                    </div>
+                                                    <div class="hover-controls">
+                                                        <i class="fa-solid fa-trash"></i>
+                                                        <i class="fa-solid fa-box-archive"></i>
+                                                        <div class="mark-importent">
+                                                            <i class="fa-regular fa-star"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="inbox-received">
+                                                    <p>26 Jan</p>
+                                                </div>
+                                            </div>
+                                            <div class="inbox read">
+                                                <input type="checkbox" name="" id="inboc_check_2" class="mail-checks">
+                                                <div class="inbox-message">
+                                                    <div class="inbox-subject">
+                                                        <h6>The Message says about the topic</h6>
+                                                    </div>
+                                                    <div class="inbox-document-preview">
+                                                        <div class="file">
+                                                            <i class="fa-regular fa-image"></i>
+                                                            image-file.jpeg
+                                                        </div>
+                                                        <div class="file">
+                                                            <i class="fa-solid fa-file"></i>
+                                                            The Document.docs
+                                                        </div>
+                                                        <div class="file">
+                                                            <i class="fa-solid fa-file-zipper"></i>
+                                                            zips files.rar
+                                                        </div>
+                                                        <div class="file">
+                                                            <i class="fa-solid fa-folder"></i>    
+                                                            The Movie collections
+                                                        </div> 
+                                                    </div>
+                                                    <div class="hover-controls">
+                                                        
+                                                        <i class="fa-solid fa-trash"></i>
+                                                        <i class="fa-solid fa-box-archive"></i>
+                                                        <div class="mark-importent">
+                                                            <i class="fa-regular fa-star"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="inbox-received">
+                                                    1 day ago
+                                                </div>
+                                            </div>
+                                            <div class="inbox unread">
+                                                <input type="checkbox" name="" id="inboc_check_3" class="mail-checks">
+                                                <div class="inbox-message">
+                                                    <div class="inbox-subject">
+                                                        <h6>The Message says about the topic</h6>
+                                                    </div>
+                                                    <div class="inbox-document-preview">
+                                                        <div class="file">
+                                                            <i class="fa-regular fa-image"></i>
+                                                            image-file.jpeg
+                                                        </div>
+                                                        <div class="file">
+                                                            <i class="fa-solid fa-file"></i>
+                                                            The Document.docs
+                                                        </div>
+                                                        <div class="file">
+                                                            <i class="fa-solid fa-file-zipper"></i>
+                                                            zips files.rar
+                                                        </div>
+                                                        <div class="file">
+                                                            <i class="fa-solid fa-folder"></i>    
+                                                            The Movie collections
+                                                        </div> 
+                                                    </div>
+                                                    <div class="hover-controls">
+                                                        
+                                                        <i class="fa-solid fa-trash"></i>
+                                                        <i class="fa-solid fa-box-archive"></i>
+                                                        <div class="mark-importent">
+                                                            <i class="fa-regular fa-star"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="inbox-received">
+                                                    1 day ago
+                                                </div>
+                                            </div>
+                                            <div class="inbox unread">
+                                                <input type="checkbox" name="" id="inboc_check_4" class="mail-checks">
+                                                <div class="inbox-message">
+                                                    <div class="inbox-subject">
+                                                        <h6>The Message says about the topic</h6>
+                                                    </div>
+                                                    <div class="inbox-document-preview">
+                                                        <div class="file">
+                                                            <i class="fa-regular fa-image"></i>
+                                                            image-file.jpeg
+                                                        </div>
+                                                        <div class="file">
+                                                            <i class="fa-solid fa-file"></i>
+                                                            The Document.docs
+                                                        </div>
+                                                        <div class="file">
+                                                            <i class="fa-solid fa-file-zipper"></i>
+                                                            zips files.rar
+                                                        </div>
+                                                        <div class="file">
+                                                            <i class="fa-solid fa-folder"></i>    
+                                                            The Movie collections
+                                                        </div> 
+                                                    </div>
+                                                    <div class="hover-controls">
+                                                        
+                                                        <i class="fa-solid fa-trash"></i>
+                                                        <i class="fa-solid fa-box-archive"></i>
+                                                        <div class="mark-importent">
+                                                            <i class="fa-regular fa-star"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="inbox-received">
+                                                    1 day ago
+                                                </div>
+                                            </div>
+                                            <div class="inbox read">
+                                                <input type="checkbox" name="" id="inboc_check_5" class="mail-checks">
+                                                <div class="inbox-message">
+                                                    <div class="inbox-subject">
+                                                        <h6>The Message says about the topic</h6>
+                                                    </div>
+                                                    <div class="inbox-document-preview">
+                                                        <div class="file">
+                                                            <i class="fa-regular fa-image"></i>
+                                                            image-file.jpeg
+                                                        </div>
+                                                        <div class="file">
+                                                            <i class="fa-solid fa-file"></i>
+                                                            The Document.docs
+                                                        </div>
+                                                        <div class="file">
+                                                            <i class="fa-solid fa-file-zipper"></i>
+                                                            zips files.rar
+                                                        </div>
+                                                        <div class="file">
+                                                            <i class="fa-solid fa-folder"></i>    
+                                                            The Movie collections
+                                                        </div> 
+                                                    </div>
+                                                    <div class="hover-controls">
+                                                        
+                                                        <i class="fa-solid fa-trash"></i>
+                                                        <i class="fa-solid fa-box-archive"></i>
+                                                        <div class="mark-importent">
+                                                            <i class="fa-regular fa-star"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="inbox-received">
+                                                    1 day ago
+                                                </div>
+                                            </div>
+                                            <div class="inbox read">
+                                                <input type="checkbox" name="" id="inboc_check_6" class="mail-checks">
+                                                <div class="inbox-message">
+                                                    <div class="inbox-subject">
+                                                        <h6>The Message says about the topic</h6>
+                                                    </div>
+                                                    <div class="inbox-document-preview">
+                                                        <div class="file">
+                                                            <i class="fa-regular fa-image"></i>
+                                                            image-file.jpeg
+                                                        </div>
+                                                        <div class="file">
+                                                            <i class="fa-solid fa-file"></i>
+                                                            The Document.docs
+                                                        </div>
+                                                        <div class="file">
+                                                            <i class="fa-solid fa-file-zipper"></i>
+                                                            zips files.rar
+                                                        </div>
+                                                        <div class="file">
+                                                            <i class="fa-solid fa-folder"></i>    
+                                                            The Movie collections
+                                                        </div> 
+                                                    </div>
+                                                    <div class="hover-controls">
+                                                        
+                                                        <i class="fa-solid fa-trash"></i>
+                                                        <i class="fa-solid fa-box-archive"></i>
+                                                        <div class="mark-importent">
+                                                            <i class="fa-regular fa-star"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="inbox-received">
+                                                    1 day ago
+                                                </div>
+                                            </div>
+                                            <div class="inbox read">
+                                                <input type="checkbox" name="" id="inboc_check_7" class="mail-checks">
+                                                <div class="inbox-message">
+                                                    <div class="inbox-subject">
+                                                        <h6>The Message says about the topic</h6>
+                                                    </div>
+                                                    <div class="inbox-document-preview">
+                                                        <div class="file">
+                                                            <i class="fa-regular fa-image"></i>
+                                                            image-file.jpeg
+                                                        </div>
+                                                        <div class="file">
+                                                            <i class="fa-solid fa-file"></i>
+                                                            The Document.docs
+                                                        </div>
+                                                        <div class="file">
+                                                            <i class="fa-solid fa-file-zipper"></i>
+                                                            zips files.rar
+                                                        </div>
+                                                        <div class="file">
+                                                            <i class="fa-solid fa-folder"></i>    
+                                                            The Movie collections
+                                                        </div> 
+                                                    </div>
+                                                    <div class="hover-controls">
+                                                        
+                                                        <i class="fa-solid fa-trash"></i>
+                                                        <i class="fa-solid fa-box-archive"></i>
+                                                        <div class="mark-importent">
+                                                            <i class="fa-regular fa-star"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="inbox-received">
+                                                    1 day ago
+                                                </div>
+                                            </div>
+                                            <div class="inbox read">
+                                                <input type="checkbox" name="" id="inboc_check_8" class="mail-checks">
+                                                <div class="inbox-message">
+                                                    <div class="inbox-subject">
+                                                        <h6>The Message says about the topic</h6>
+                                                    </div>
+                                                    <div class="inbox-document-preview">
+                                                        <div class="file">
+                                                            <i class="fa-regular fa-image"></i>
+                                                            image-file.jpeg
+                                                        </div>
+                                                        <div class="file">
+                                                            <i class="fa-solid fa-file"></i>
+                                                            The Document.docs
+                                                        </div>
+                                                        <div class="file">
+                                                            <i class="fa-solid fa-file-zipper"></i>
+                                                            zips files.rar
+                                                        </div>
+                                                        <div class="file">
+                                                            <i class="fa-solid fa-folder"></i>    
+                                                            The Movie collections
+                                                        </div> 
+                                                    </div>
+                                                    <div class="hover-controls">
+                                                        
+                                                        <i class="fa-solid fa-trash"></i>
+                                                        <i class="fa-solid fa-box-archive"></i>
+                                                        <div class="mark-importent">
+                                                            <i class="fa-regular fa-star"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="inbox-received">
+                                                    1 day ago
+                                                </div>
+                                            </div>
+                                            <div class="inbox unread">
+                                                <input type="checkbox" name="" id="inboc_check_9" class="mail-checks">
+                                                <div class="inbox-message">
+                                                    <div class="inbox-subject">
+                                                        <h6>The Message says about the topic</h6>
+                                                    </div>
+                                                    <div class="inbox-document-preview">
+                                                        <div class="file">
+                                                            <i class="fa-regular fa-image"></i>
+                                                            image-file.jpeg
+                                                        </div>
+                                                        <div class="file">
+                                                            <i class="fa-solid fa-file"></i>
+                                                            The Document.docs
+                                                        </div>
+                                                        <div class="file">
+                                                            <i class="fa-solid fa-file-zipper"></i>
+                                                            zips files.rar
+                                                        </div>
+                                                        <div class="file">
+                                                            <i class="fa-solid fa-folder"></i>    
+                                                            The Movie collections
+                                                        </div> 
+                                                    </div>
+                                                    <div class="hover-controls">
+                                                        
+                                                        <i class="fa-solid fa-trash"></i>
+                                                        <i class="fa-solid fa-box-archive"></i>
+                                                        <div class="mark-importent">
+                                                            <i class="fa-regular fa-star"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="inbox-received">
+                                                    1 day ago
+                                                </div>
+                                            </div>
+                                            <div class="inbox unread">
+                                                <input type="checkbox" name="" id="inboc_check_10" class="mail-checks">
+                                                <div class="inbox-message">
+                                                    <div class="inbox-subject">
+                                                        <h6>The Message says about the topic</h6>
+                                                    </div>
+                                                    <div class="inbox-document-preview">
+                                                        <div class="file">
+                                                            <i class="fa-regular fa-image"></i>
+                                                            image-file.jpeg
+                                                        </div>
+                                                        <div class="file">
+                                                            <i class="fa-solid fa-file"></i>
+                                                            The Document.docs
+                                                        </div>
+                                                        <div class="file">
+                                                            <i class="fa-solid fa-file-zipper"></i>
+                                                            zips files.rar
+                                                        </div>
+                                                        <div class="file">
+                                                            <i class="fa-solid fa-folder"></i>    
+                                                            The Movie collections
+                                                        </div> 
+                                                    </div>
+                                                    <div class="hover-controls">
+                                                        
+                                                        <i class="fa-solid fa-trash"></i>
+                                                        <i class="fa-solid fa-box-archive"></i>
+                                                        <div class="mark-importent">
+                                                            <i class="fa-regular fa-star"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="inbox-received">
+                                                    1 day ago
+                                                </div>
+                                            </div>
+                                            <div class="inbox read">
+                                                <input type="checkbox" name="" id="inboc_check_11" class="mail-checks">
+                                                <div class="inbox-message">
+                                                    <div class="inbox-subject">
+                                                        <h6>The Message says about the topic</h6>
+                                                    </div>
+                                                    <div class="inbox-document-preview">
+                                                        <div class="file">
+                                                            <i class="fa-regular fa-image"></i>
+                                                            image-file.jpeg
+                                                        </div>
+                                                        <div class="file">
+                                                            <i class="fa-solid fa-file"></i>
+                                                            The Document.docs
+                                                        </div>
+                                                        <div class="file">
+                                                            <i class="fa-solid fa-file-zipper"></i>
+                                                            zips files.rar
+                                                        </div>
+                                                        <div class="file">
+                                                            <i class="fa-solid fa-folder"></i>    
+                                                            The Movie collections
+                                                        </div> 
+                                                    </div>
+                                                    <div class="hover-controls">
+                                                        
+                                                        <i class="fa-solid fa-trash"></i>
+                                                        <i class="fa-solid fa-box-archive"></i>
+                                                        <div class="mark-importent">
+                                                            <i class="fa-regular fa-star"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="inbox-received">
+                                                    1 day ago
+                                                </div>
+                                            </div>
+                                            <div class="inbox read">
+                                                <input type="checkbox" name="" id="inboc_check_12" class="mail-checks">
+                                                <div class="inbox-message">
+                                                    <div class="inbox-subject">
+                                                        <h6>The Message says about the topic</h6>
+                                                    </div>
+                                                    <div class="inbox-document-preview">
+                                                        <div class="file">
+                                                            <i class="fa-regular fa-image"></i>
+                                                            image-file.jpeg
+                                                        </div>
+                                                        <div class="file">
+                                                            <i class="fa-solid fa-file"></i>
+                                                            The Document.docs
+                                                        </div>
+                                                        <div class="file">
+                                                            <i class="fa-solid fa-file-zipper"></i>
+                                                            zips files.rar
+                                                        </div>
+                                                        <div class="file">
+                                                            <i class="fa-solid fa-folder"></i>    
+                                                            The Movie collections
+                                                        </div> 
+                                                    </div>
+                                                    <div class="hover-controls">
+                                                        
+                                                        <i class="fa-solid fa-trash"></i>
+                                                        <i class="fa-solid fa-box-archive"></i>
+                                                        <div class="mark-importent">
+                                                            <i class="fa-regular fa-star"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="inbox-received">
+                                                    1 day ago
+                                                </div>
+                                            </div>
+                                            <div class="inbox read">
+                                                <input type="checkbox" name="" id="inboc_check_13" class="mail-checks">
+                                                <div class="inbox-message">
+                                                    <div class="inbox-subject">
+                                                        <h6>The Message says about the topic</h6>
+                                                    </div>
+                                                    <div class="inbox-document-preview">
+                                                        <div class="file">
+                                                            <i class="fa-regular fa-image"></i>
+                                                            image-file.jpeg
+                                                        </div>
+                                                        <div class="file">
+                                                            <i class="fa-solid fa-file"></i>
+                                                            The Document.docs
+                                                        </div>
+                                                        <div class="file">
+                                                            <i class="fa-solid fa-file-zipper"></i>
+                                                            zips files.rar
+                                                        </div>
+                                                        <div class="file">
+                                                            <i class="fa-solid fa-folder"></i>    
+                                                            The Movie collections
+                                                        </div> 
+                                                    </div>
+                                                    <div class="hover-controls">
+                                                        
+                                                        <i class="fa-solid fa-trash"></i>
+                                                        <i class="fa-solid fa-box-archive"></i>
+                                                        <div class="mark-importent">
+                                                            <i class="fa-regular fa-star"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="inbox-received">
+                                                    1 day ago
+                                                </div>
+                                            </div>
+                                            <div class="inbox read">
+                                                <input type="checkbox" name="" id="inboc_check_14" class="mail-checks">
+                                                <div class="inbox-message">
+                                                    <div class="inbox-subject">
+                                                        <h6>The Message says about the topic</h6>
+                                                    </div>
+                                                    <div class="inbox-document-preview">
+                                                        <div class="file">
+                                                            <i class="fa-regular fa-image"></i>
+                                                            image-file.jpeg
+                                                        </div>
+                                                        <div class="file">
+                                                            <i class="fa-solid fa-file"></i>
+                                                            The Document.docs
+                                                        </div>
+                                                        <div class="file">
+                                                            <i class="fa-solid fa-file-zipper"></i>
+                                                            zips files.rar
+                                                        </div>
+                                                        <div class="file">
+                                                            <i class="fa-solid fa-folder"></i>    
+                                                            The Movie collections
+                                                        </div> 
+                                                    </div>
+                                                    <div class="hover-controls">
+                                                        
+                                                        <i class="fa-solid fa-trash"></i>
+                                                        <i class="fa-solid fa-box-archive"></i>
+                                                        <div class="mark-importent">
+                                                            <i class="fa-regular fa-star"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="inbox-received">
+                                                    1 day ago
+                                                </div>
+                                            </div>
+                                            <div class="inbox unread">
+                                                <input type="checkbox" name="" id="inboc_check_15" class="mail-checks">
+                                                <div class="inbox-message">
+                                                    <div class="inbox-subject">
+                                                        <h6>The Message says about the topic</h6>
+                                                    </div>
+                                                    <div class="inbox-document-preview">
+                                                        <div class="file">
+                                                            <i class="fa-regular fa-image"></i>
+                                                            image-file.jpeg
+                                                        </div>
+                                                        <div class="file">
+                                                            <i class="fa-solid fa-file"></i>
+                                                            The Document.docs
+                                                        </div>
+                                                        <div class="file">
+                                                            <i class="fa-solid fa-file-zipper"></i>
+                                                            zips files.rar
+                                                        </div>
+                                                        <div class="file">
+                                                            <i class="fa-solid fa-folder"></i>    
+                                                            The Movie collections
+                                                        </div> 
+                                                    </div>
+                                                    <div class="hover-controls">
+                                                        
+                                                        <i class="fa-solid fa-trash"></i>
+                                                        <i class="fa-solid fa-box-archive"></i>
+                                                        <div class="mark-importent">
+                                                            <i class="fa-regular fa-star"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="inbox-received">
+                                                    1 day ago
+                                                </div>
+                                            </div>
+                                            <div class="inbox unread">
+                                                <input type="checkbox" name="" id="inboc_check_16" class="mail-checks">
+                                                <div class="inbox-message">
+                                                    <div class="inbox-subject">
+                                                        <h6>The Message says about the topic</h6>
+                                                    </div>
+                                                    <div class="inbox-document-preview">
+                                                        <div class="file">
+                                                            <i class="fa-regular fa-image"></i>
+                                                            image-file.jpeg
+                                                        </div>
+                                                        <div class="file">
+                                                            <i class="fa-solid fa-file"></i>
+                                                            The Document.docs
+                                                        </div>
+                                                        <div class="file">
+                                                            <i class="fa-solid fa-file-zipper"></i>
+                                                            zips files.rar
+                                                        </div>
+                                                        <div class="file">
+                                                            <i class="fa-solid fa-folder"></i>    
+                                                            The Movie collections
+                                                        </div> 
+                                                    </div>
+                                                    <div class="hover-controls">
+                                                        
+                                                        <i class="fa-solid fa-trash"></i>
+                                                        <i class="fa-solid fa-box-archive"></i>
+                                                        <div class="mark-importent">
+                                                            <i class="fa-regular fa-star"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="inbox-received">
+                                                    1 day ago
+                                                </div>
+                                            </div>
+                                            <div class="inbox read">
+                                                <input type="checkbox" name="" id="inboc_check_17" class="mail-checks">
+                                                <div class="inbox-message">
+                                                    <div class="inbox-subject">
+                                                        <h6>The Message says about the topic</h6>
+                                                    </div>
+                                                    <div class="inbox-document-preview">
+                                                        <div class="file">
+                                                            <i class="fa-regular fa-image"></i>
+                                                            image-file.jpeg
+                                                        </div>
+                                                        <div class="file">
+                                                            <i class="fa-solid fa-file"></i>
+                                                            The Document.docs
+                                                        </div>
+                                                        <div class="file">
+                                                            <i class="fa-solid fa-file-zipper"></i>
+                                                            zips files.rar
+                                                        </div>
+                                                        <div class="file">
+                                                            <i class="fa-solid fa-folder"></i>    
+                                                            The Movie collections
+                                                        </div> 
+                                                    </div>
+                                                    <div class="hover-controls">
+                                                        
+                                                        <i class="fa-solid fa-trash"></i>
+                                                        <i class="fa-solid fa-box-archive"></i>
+                                                        <div class="mark-importent">
+                                                            <i class="fa-regular fa-star"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="inbox-received">
+                                                    1 day ago
+                                                </div>
+                                            </div>
+                                            <div class="inbox read">
+                                                <input type="checkbox" name="" id="inboc_check_18" class="mail-checks">
+                                                <div class="inbox-message">
+                                                    <div class="inbox-subject">
+                                                        <h6>The Message says about the topic</h6>
+                                                    </div>
+                                                    <div class="inbox-document-preview">
+                                                        <div class="file">
+                                                            <i class="fa-regular fa-image"></i>
+                                                            image-file.jpeg
+                                                        </div>
+                                                        <div class="file">
+                                                            <i class="fa-solid fa-file"></i>
+                                                            The Document.docs
+                                                        </div>
+                                                        <div class="file">
+                                                            <i class="fa-solid fa-file-zipper"></i>
+                                                            zips files.rar
+                                                        </div>
+                                                        <div class="file">
+                                                            <i class="fa-solid fa-folder"></i>    
+                                                            The Movie collections
+                                                        </div> 
+                                                    </div>
+                                                    <div class="hover-controls">
+                                                        
+                                                        <i class="fa-solid fa-trash"></i>
+                                                        <i class="fa-solid fa-box-archive"></i>
+                                                        <div class="mark-importent">
+                                                            <i class="fa-regular fa-star"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="inbox-received">
+                                                    1 day ago
+                                                </div>
+                                            </div>
+                                            <div class="inbox unread">
+                                                <input type="checkbox" name="" id="inboc_check_19" class="mail-checks">
+                                                <div class="inbox-message">
+                                                    <div class="inbox-subject">
+                                                        <h6>The Message says about the topic</h6>
+                                                    </div>
+                                                    <div class="inbox-document-preview">
+                                                        <div class="file">
+                                                            <i class="fa-regular fa-image"></i>
+                                                            image-file.jpeg
+                                                        </div>
+                                                        <div class="file">
+                                                            <i class="fa-solid fa-file"></i>
+                                                            The Document.docs
+                                                        </div>
+                                                        <div class="file">
+                                                            <i class="fa-solid fa-file-zipper"></i>
+                                                            zips files.rar
+                                                        </div>
+                                                        <div class="file">
+                                                            <i class="fa-solid fa-folder"></i>    
+                                                            The Movie collections
+                                                        </div> 
+                                                    </div>
+                                                    <div class="hover-controls">
+                                                        
+                                                        <i class="fa-solid fa-trash"></i>
+                                                        <i class="fa-solid fa-box-archive"></i>
+                                                        <div class="mark-importent">
+                                                            <i class="fa-regular fa-star"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="inbox-received">
+                                                    1 day ago
+                                                </div>
+                                            </div>
+                                            <div class="inbox read">
+                                                <input type="checkbox" name="" id="inboc_check_20" class="mail-checks">
+                                                <div class="inbox-message">
+                                                    <div class="inbox-subject">
+                                                        <h6>The Message says about the topic</h6>
+                                                    </div>
+                                                    <div class="inbox-document-preview">
+                                                        <div class="file">
+                                                            <i class="fa-regular fa-image"></i>
+                                                            image-file.jpeg
+                                                        </div>
+                                                        <div class="file">
+                                                            <i class="fa-solid fa-file"></i>
+                                                            The Document.docs
+                                                        </div>
+                                                        <div class="file">
+                                                            <i class="fa-solid fa-file-zipper"></i>
+                                                            zips files.rar
+                                                        </div>
+                                                        <div class="file">
+                                                            <i class="fa-solid fa-folder"></i>    
+                                                            The Movie collections
+                                                        </div> 
+                                                    </div>
+                                                    <div class="hover-controls">
+                                                        
+                                                        <i class="fa-solid fa-trash"></i>
+                                                        <i class="fa-solid fa-box-archive"></i>
+                                                        <div class="mark-importent">
+                                                            <i class="fa-regular fa-star"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="inbox-received">
+                                                    1 day ago
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div id="send-mail-tab" class="inbox-message-holder">
+                                            <div class="inbox unread">
+                                                <input type="checkbox" name="" id="inboc_check_21" class="mail-checks">
+                                                <div class="inbox-message">
+                                                    <div class="inbox-subject">
+                                                        <h6>The Message says about the topic</h6>
+                                                    </div>
+                                                    <div class="hover-controls">
+                                                        <i class="fa-solid fa-trash"></i>
+                                                        <i class="fa-solid fa-box-archive"></i>
+                                                        <div class="mark-importent">
+                                                            <i class="fa-regular fa-star"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="inbox-received">
+                                                    1 day ago
+                                                </div>
+                                            </div>
+                                            <div class="inbox unread">
+                                                <input type="checkbox" name="" id="inboc_check_22" class="mail-checks">
+                                                <div class="inbox-message">
+                                                    <div class="inbox-subject">
+                                                        <h6>The Message says about the topic</h6>
+                                                    </div>
+                                                    <div class="hover-controls">
+                                                        <i class="fa-solid fa-trash"></i>
+                                                        <i class="fa-solid fa-box-archive"></i>
+                                                        <div class="mark-importent">
+                                                            <i class="fa-regular fa-star"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="inbox-received">
+                                                    1 day ago
+                                                </div>
+                                            </div>
+                                            <div class="inbox unread">
+                                                <input type="checkbox" name="" id="inboc_check_23" class="mail-checks">
+                                                <div class="inbox-message">
+                                                    <div class="inbox-subject">
+                                                        <h6>The Message says about the topic</h6>
+                                                    </div>
+                                                    <div class="hover-controls">
+                                                        <i class="fa-solid fa-trash"></i>
+                                                        <i class="fa-solid fa-box-archive"></i>
+                                                        <div class="mark-importent">
+                                                            <i class="fa-regular fa-star"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="inbox-received">
+                                                    1 day ago
+                                                </div>
+                                            </div>
+                                            <div class="inbox read">
+                                                <input type="checkbox" name="" id="inboc_check_24" class="mail-checks">
+                                                <div class="inbox-message">
+                                                    <div class="inbox-subject">
+                                                        <h6>The Message says about the topic</h6>
+                                                    </div>
+                                                    
+                                                    <div class="hover-controls">
+                                                        <i class="fa-solid fa-trash"></i>
+                                                        <i class="fa-solid fa-box-archive"></i>
+                                                        <div class="mark-importent">
+                                                            <i class="fa-regular fa-star"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="inbox-received">
+                                                    1 day ago
+                                                </div>
+                                            </div>
+                                            <div class="inbox read">
+                                                <input type="checkbox" name="" id="inboc_check_25" class="mail-checks">
+                                                <div class="inbox-message">
+                                                    <div class="inbox-subject">
+                                                        <h6>The Message says about the topic</h6>
+                                                    </div>
+                                                    <div class="hover-controls">
+                                                        <i class="fa-solid fa-trash"></i>
+                                                        <i class="fa-solid fa-box-archive"></i>
+                                                        <div class="mark-importent">
+                                                            <i class="fa-regular fa-star"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="inbox-received">
+                                                    1 day ago
+                                                </div>
+                                            </div>
+                                            <div class="inbox read">
+                                                <input type="checkbox" name="" id="inboc_check_26" class="mail-checks">
+                                                <div class="inbox-message">
+                                                    <div class="inbox-subject">
+                                                        <h6>The Message says about the topic</h6>
+                                                    </div>
+                                                    <div class="hover-controls">
+                                                        <i class="fa-solid fa-trash"></i>
+                                                        <i class="fa-solid fa-box-archive"></i>
+                                                        <div class="mark-importent">
+                                                            <i class="fa-regular fa-star"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="inbox-received">
+                                                    1 day ago
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div id="draft-tab" class="inbox-message-holder">
+                                            <div class="inbox unread">
+                                                <input type="checkbox" name="" id="inboc_check_27" class="mail-checks">
+                                                <div class="inbox-message">
+                                                    <div class="inbox-subject">
+                                                        <h6>The Message says about the topic</h6>
+                                                    </div>
+                                                    <div class="inbox-msg-content">
+                                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error quo voluptatibus molestias tenetur aperiam ut impedit amet nam voluptatum dolore quasi, officia </p>
+                                                    </div>
+                                                    <div class="inbox-document-preview">
+                                                        <div class="file">
+                                                            <i class="fa-regular fa-image"></i>
+                                                            image-file.jpeg
+                                                        </div>
+                                                        <div class="file">
+                                                            <i class="fa-solid fa-file"></i>
+                                                            The Document.docs
+                                                        </div>
+                                                        <div class="file">
+                                                            <i class="fa-solid fa-file-zipper"></i>
+                                                            zips files.rar
+                                                        </div>
+                                                        <div class="file">
+                                                            <i class="fa-solid fa-folder"></i>    
+                                                            The Movie collections
+                                                        </div> 
+                                                    </div>
+                                                    <div class="hover-controls">
+                                                        <i class="fa-solid fa-trash"></i>
+                                                        <i class="fa-solid fa-box-archive"></i>
+                                                        <div class="mark-importent">
+                                                            <i class="fa-regular fa-star"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="inbox-received">
+                                                    1 day ago
+                                                </div>
+                                            </div>
+                                            <div class="inbox unread">
+                                                <input type="checkbox" name="" id="inboc_check_28" class="mail-checks">
+                                                <div class="inbox-message">
+                                                    <div class="inbox-subject">
+                                                        <h6>The Message says about the topic</h6>
+                                                    </div>
+                                                    <div class="inbox-msg-content">
+                                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error quo voluptatibus molestias tenetur aperiam ut impedit amet nam voluptatum dolore quasi, officia </p>
+                                                    </div>
+                                                    <div class="inbox-document-preview">
+                                                        <div class="file">
+                                                            <i class="fa-regular fa-image"></i>
+                                                            image-file.jpeg
+                                                        </div>
+                                                        <div class="file">
+                                                            <i class="fa-solid fa-file"></i>
+                                                            The Document.docs
+                                                        </div>
+                                                        <div class="file">
+                                                            <i class="fa-solid fa-file-zipper"></i>
+                                                            zips files.rar
+                                                        </div>
+                                                        <div class="file">
+                                                            <i class="fa-solid fa-folder"></i>    
+                                                            The Movie collections
+                                                        </div> 
+                                                    </div>
+                                                    <div class="hover-controls">
+                                                        <i class="fa-solid fa-trash"></i>
+                                                        <i class="fa-solid fa-box-archive"></i>
+                                                        <div class="mark-importent">
+                                                            <i class="fa-regular fa-star"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="inbox-received">
+                                                    1 day ago
+                                                </div>
+                                            </div>
+                                            <div class="inbox unread">
+                                                <input type="checkbox" name="" id="inboc_check_29" class="mail-checks">
+                                                <div class="inbox-message">
+                                                    <div class="inbox-subject">
+                                                        <h6>The Message says about the topic</h6>
+                                                    </div>
+                                                    <div class="inbox-msg-content">
+                                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error quo voluptatibus molestias tenetur aperiam ut impedit amet nam voluptatum dolore quasi, officia </p>
+                                                    </div>
+                                                    <div class="inbox-document-preview">
+                                                        <div class="file">
+                                                            <i class="fa-regular fa-image"></i>
+                                                            image-file.jpeg
+                                                        </div>
+                                                        <div class="file">
+                                                            <i class="fa-solid fa-file"></i>
+                                                            The Document.docs
+                                                        </div>
+                                                        <div class="file">
+                                                            <i class="fa-solid fa-file-zipper"></i>
+                                                            zips files.rar
+                                                        </div>
+                                                        <div class="file">
+                                                            <i class="fa-solid fa-folder"></i>    
+                                                            The Movie collections
+                                                        </div> 
+                                                    </div>
+                                                    <div class="hover-controls">
+                                                        <i class="fa-solid fa-trash"></i>
+                                                        <i class="fa-solid fa-box-archive"></i>
+                                                        <div class="mark-importent">
+                                                            <i class="fa-regular fa-star"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="inbox-received">
+                                                    1 day ago
+                                                </div>
+                                            </div>
+                                            <div class="inbox unread">
+                                                <input type="checkbox" name="" id="inboc_check_30" class="mail-checks">
+                                                <div class="inbox-message">
+                                                    <div class="inbox-subject">
+                                                        <h6>The Message says about the topic</h6>
+                                                    </div>
+                                                    <div class="inbox-msg-content">
+                                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error quo voluptatibus molestias tenetur aperiam ut impedit amet nam voluptatum dolore quasi, officia </p>
+                                                    </div>
+                                                    <div class="inbox-document-preview">
+                                                        <div class="file">
+                                                            <i class="fa-regular fa-image"></i>
+                                                            image-file.jpeg
+                                                        </div>
+                                                        <div class="file">
+                                                            <i class="fa-solid fa-file"></i>
+                                                            The Document.docs
+                                                        </div>
+                                                        <div class="file">
+                                                            <i class="fa-solid fa-file-zipper"></i>
+                                                            zips files.rar
+                                                        </div>
+                                                        <div class="file">
+                                                            <i class="fa-solid fa-folder"></i>    
+                                                            The Movie collections
+                                                        </div> 
+                                                    </div>
+                                                    <div class="hover-controls">
+                                                        <i class="fa-solid fa-trash"></i>
+                                                        <i class="fa-solid fa-box-archive"></i>
+                                                        <div class="mark-importent">
+                                                            <i class="fa-regular fa-star"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="inbox-received">
+                                                    1 day ago
+                                                </div>
+                                            </div>
+                                            <div class="inbox read">
+                                                <input type="checkbox" name="" id="inboc_check_31" class="mail-checks">
+                                                <div class="inbox-message">
+                                                    <div class="inbox-subject">
+                                                        <h6>The Message says about the topic</h6>
+                                                    </div>
+                                                    <div class="inbox-msg-content">
+                                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error quo voluptatibus molestias tenetur aperiam ut impedit amet nam voluptatum dolore quasi, officia </p>
+                                                    </div>
+                                                    <div class="inbox-document-preview">
+                                                        <div class="file">
+                                                            <i class="fa-regular fa-image"></i>
+                                                            image-file.jpeg
+                                                        </div>
+                                                        <div class="file">
+                                                            <i class="fa-solid fa-file"></i>
+                                                            The Document.docs
+                                                        </div>
+                                                        <div class="file">
+                                                            <i class="fa-solid fa-file-zipper"></i>
+                                                            zips files.rar
+                                                        </div>
+                                                        <div class="file">
+                                                            <i class="fa-solid fa-folder"></i>    
+                                                            The Movie collections
+                                                        </div> 
+                                                    </div>
+                                                    <div class="hover-controls">
+                                                        <i class="fa-solid fa-trash"></i>
+                                                        <i class="fa-solid fa-box-archive"></i>
+                                                        <div class="mark-importent">
+                                                            <i class="fa-regular fa-star"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="inbox-received">
+                                                    1 day ago
+                                                </div>
+                                            </div>
+                                            <div class="inbox read">
+                                                <input type="checkbox" name="" id="inboc_check_32" class="mail-checks">
+                                                <div class="inbox-message">
+                                                    <div class="inbox-subject">
+                                                        <h6>The Message says about the topic</h6>
+                                                    </div>
+                                                    <div class="inbox-msg-content">
+                                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error quo voluptatibus molestias tenetur aperiam ut impedit amet nam voluptatum dolore quasi, officia </p>
+                                                    </div>
+                                                    <div class="inbox-document-preview">
+                                                        <div class="file">
+                                                            <i class="fa-regular fa-image"></i>
+                                                            image-file.jpeg
+                                                        </div>
+                                                        <div class="file">
+                                                            <i class="fa-solid fa-file"></i>
+                                                            The Document.docs
+                                                        </div>
+                                                        <div class="file">
+                                                            <i class="fa-solid fa-file-zipper"></i>
+                                                            zips files.rar
+                                                        </div>
+                                                        <div class="file">
+                                                            <i class="fa-solid fa-folder"></i>    
+                                                            The Movie collections
+                                                        </div> 
+                                                    </div>
+                                                    <div class="hover-controls">
+                                                        <i class="fa-solid fa-trash"></i>
+                                                        <i class="fa-solid fa-box-archive"></i>
+                                                        <div class="mark-importent">
+                                                            <i class="fa-regular fa-star"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="inbox-received">
+                                                    1 day ago
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="sent-mail-container">
+                                    <div class="sentmail-contols">
+                                        <div class="control-left">
+                                            <span>Create Male</span>
+                                        </div>
+                                        <div class="control-right">
+                                            <div class="controls">
+                                                <i class="fa-solid fa-trash"></i>
+                                            </div>
+                                            <div class="controls">
+                                                <i class="fa-solid fa-window-minimize"></i>
+                                                <i class="fa-solid fa-up-right-from-square"></i>
+                                            </div>
+                                            <div class="controls">
+                                                <i class="fa-solid fa-compress"></i>
+                                                <i class="fa-solid fa-expand"></i>
+                                            </div>
+                                            <div class="controls">
+                                                <i class="fa-solid fa-xmark"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="mail-box">
+                                        <form action="#" method="get">
+                                            <div class="form-group">
+                                                <label for="toaddress">To:</label>
+                                                <input type="text" name="email_to" id="toaddress" class="form-control form-control-sm" placeholder="someone@somewhere.com">
+                                            </div>
+                                            <div class="form-group">
+                                                <div class="email-list">
+                                                    <span>someone@somewhere.com<i class="fa-solid fa-xmark"></i></span>
+                                                    <span>someone@somewhere.com<i class="fa-solid fa-xmark"></i></span>
+                                                    <span>someone@somewhere.com<i class="fa-solid fa-xmark"></i></span>
+                                                    <span>someone@somewhere.com <i class="fa-solid fa-xmark"></i></span>
+                                                    <span>someone@somewhere.com<i class="fa-solid fa-xmark"></i></span>
+                                                    <span>someone@somewhere.com<i class="fa-solid fa-xmark"></i></span>
+                                                    <span>someone@somewhere.com<i class="fa-solid fa-xmark"></i></span>
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="mal_subject">Subject</label>
+                                                <input type="text" name="subject" id="mal_subject" class="form-control form-control-sm" placeholder="Give a Subject">
+                                            </div>
+                                            <div class="form-group">
+                                                <div class="text-formater">
+                                                    <div>B</div>
+                                                    <div>I</div>
+                                                    <div>U</div>
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <!-- <label for="message">Message</label> -->
+                                                <textarea name="" id="message" cols="30" rows="10" class="form-control form-control-sm"></textarea>
+                                            </div>
+                                            <div class="form-group">
+                                                <!-- <div class="inbox-document-preview">
+                                                    <div class="file">
+                                                        <i class="fa-regular fa-image"></i>
+                                                        image-file.jpeg
+                                                    </div>
+                                                    <div class="file">
+                                                        <i class="fa-solid fa-file"></i>
+                                                        The Document.docs
+                                                    </div>
+                                                    <div class="file">
+                                                        <i class="fa-solid fa-file-zipper"></i>
+                                                        zips files.rar
+                                                    </div>
+                                                    <div class="file">
+                                                        <i class="fa-solid fa-folder"></i>    
+                                                        The Movie collections
+                                                    </div> 
+                                                </div> -->
+                                                <div class="email-list">
+                                                    <span>someone@somewhere.com<i class="fa-solid fa-xmark"></i></span>
+                                                    <span>someone@somewhere.com<i class="fa-solid fa-xmark"></i></span>
+                                                    <span>someone@somewhere.com<i class="fa-solid fa-xmark"></i></span>
+                                                    <span>someone@somewhere.com <i class="fa-solid fa-xmark"></i></span>
+                                                    <span>someone@somewhere.com<i class="fa-solid fa-xmark"></i></span>
+                                                    <span>someone@somewhere.com<i class="fa-solid fa-xmark"></i></span>
+                                                    <span>someone@somewhere.com<i class="fa-solid fa-xmark"></i></span>
+                                                </div>
+                                            </div>
+                                            <div class="form-group my-2">
+                                                <button class="btn btn-primary">Send</button>
+                                                <i class="fa-solid fa-paperclip"></i>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- bootstrap 5.0 cdn -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!-- jquery cdn -->
+    <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+    <!-- <script src="assects/js/index.js"></script> -->
+    <script src="assects/js/jswritings.js"></script>
+    <script src="assects/js/clickscripts.js"></script>
+</body>
+</html>
